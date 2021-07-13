@@ -1,8 +1,7 @@
 Meu Primeiro Repositório 
 ======================== 
 
-O Git/GitHub são legais!
+Iniciando os estudos de programação e esse é meu primeiro repositorio!
+Procurar agrupar todos os projetos de estudo para ir aperfeiçando conforme for aprendendo mais.
 
-Teste do comando pull pelo VScode.
-
-Teste clone repositorio
+Fé...
