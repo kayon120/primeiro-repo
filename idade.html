@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual sua idade?</title>
+</head>
+<body>
+    <h1>Quantos dias sua idade representa??</h1>
+    <p>Digite sua idade para sabermos a quantidade de dias:</p>
+    <input type="number" name="txtidade" id="txtidade">
+    <input type="button" value="Enviar" onclick="somar()">
+    <div id="mostra"></div>
+    <script>
+        function somar(){
+            var idade = document.querySelector('input#txtidade')
+            var idade1 = Number(idade.value)
+            var resposta = document.querySelector('div#mostra')
+            var soma = idade1 * 365
+            var resultado = soma
+            resposta.innerHTML = `Sua idade representa <strong>${resultado}<strong> Dias`
+
+        }
+
+    </script>
+</body>
+</html>
